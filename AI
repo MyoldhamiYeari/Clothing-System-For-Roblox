@@ -5,15 +5,15 @@ local j_sb = workspace:WaitForChild('Just_SomeoneBro')
 local dt9 = workspace:WaitForChild('darktranx9')
 
 if j_sb:FindFirstChild('Shirt') then
-	j_sb:WaitForChild('Shirt').ShirtTemplate = just_someonebro.shirt
+	j_sb:WaitForChild('Shirt').ShirtTemplate = "rbxassetid://"..just_someonebro.shirt
 end
 if j_sb:FindFirstChild('Pants') then
-	j_sb:WaitForChild('Pants').PantsTemplate = just_someonebro.pants
+	j_sb:WaitForChild('Pants').PantsTemplate = "rbxassetid://"..just_someonebro.pants
 end
 
 if dt9:FindFirstChild('Shirt') then
-	dt9:WaitForChild('Shirt').ShirtTemplate = darktranx9.shirt
+	dt9:WaitForChild('Shirt').ShirtTemplate = "rbxassetid://"..darktranx9.shirt
 end
 if dt9:FindFirstChild('Pants') then
-	dt9:WaitForChild('Pants').PantsTemplate = darktranx9.pants
+	dt9:WaitForChild('Pants').PantsTemplate = "rbxassetid://"..darktranx9.pants
 end
